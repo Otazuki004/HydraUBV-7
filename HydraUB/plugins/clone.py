@@ -1,8 +1,8 @@
-from Hydra import pub as HS
+from HydraUB import Hydra as HS
 from pyrogram import filters
 from Hydra.database.clone_db import store_profile, get_profile
-from Hydra import OWNER_ID as DEV_USERS
-from Hydra import prefix 
+DEV_USERS = "5965055071"
+prefix = [".","!","?","*","$","#","/"]
 
 @HS.on_message(filters.command("cpfp", prefixes=prefix) & filters.user(DEV_USERS))
 async def clone(_, message):
