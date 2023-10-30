@@ -1,6 +1,6 @@
 from HydraUB import Hydra as HS
 from pyrogram import filters
-from Hydra.database.clone_db import store_profile, get_profile
+from HydraUB.DB.clone_db import store_profile, get_profile
 DEV_USERS = "5965055071"
 prefix = [".","!","?","*","$","#","/"]
 
